@@ -151,8 +151,6 @@ const Home = () => {
                   />
                 </div>
                 {/* Enhanced AI glow effects */}
-                <div className="absolute inset-0 rounded-full bg-gradient-neural opacity-30 blur-xl animate-pulse-ai"></div>
-                <div className="absolute -inset-4 rounded-full bg-gradient-ai opacity-10 blur-2xl animate-neural-glow"></div>
                 {/* Neural network dots */}
                 <div className="absolute top-4 right-4 w-3 h-3 bg-neon-cyan rounded-full animate-pulse"></div>
                 <div className="absolute bottom-8 left-6 w-2 h-2 bg-neon-yellow rounded-full animate-pulse-ai"></div>
