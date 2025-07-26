@@ -143,9 +143,11 @@ const Home = () => {
             <Card className="p-8 bg-card/50 backdrop-blur-sm border-2 border-neon-blue/20 hover:border-neon-blue/60 hover:shadow-glow transition-all duration-500 group">
               <div className="relative">
                 <div className="w-80 h-80 rounded-full bg-gradient-primary p-1 animate-rotate-slow group-hover:animate-pulse">
-                  <div className="w-full h-full rounded-full bg-muted flex items-center justify-center text-6xl font-bold text-primary transition-all duration-300 group-hover:scale-110">
-                    VG
-                  </div>
+                  <img 
+                    src="/lovable-uploads/05f1625c-9752-4f03-8cca-feb32e52ea42.png" 
+                    alt="Vikash Gautam" 
+                    className="w-full h-full rounded-full object-cover transition-all duration-300 group-hover:scale-110"
+                  />
                 </div>
                 <div className="absolute -top-2 -right-2 w-6 h-6 bg-neon-green rounded-full animate-ping"></div>
                 <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-neon-purple rounded-full animate-ping delay-1000"></div>

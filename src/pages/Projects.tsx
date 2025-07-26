@@ -156,12 +156,6 @@ const Projects = () => {
                     {/* Action Buttons */}
                     <div className="flex gap-4 pt-4">
                       <Button 
-                        className={`bg-gradient-primary hover:shadow-neon transition-all duration-300`}
-                      >
-                        <Play className="w-4 h-4 mr-2" />
-                        Live Demo
-                      </Button>
-                      <Button 
                         variant="outline" 
                         className={`border-${project.color}/50 text-${project.color} hover:bg-${project.color}/10`}
                       >
