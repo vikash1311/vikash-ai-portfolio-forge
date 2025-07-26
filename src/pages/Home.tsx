@@ -151,8 +151,8 @@ const Home = () => {
                     
                   />
                   </div>
-                <div className="absolute top-4 right-4 w-3 h-3 bg-neon-cyan rounded-full animate-pulse"></div>
-                <div className="absolute bottom-8 left-6 w-2 h-2 bg-neon-yellow rounded-full animate-pulse-ai"></div>
+                <div className="absolute top-4 right-4 w-3 h-3 bg-neon-yellow rounded-full animate-pulse"></div>
+                <div className="absolute bottom-8 left-6 w-2 h-2 bg-neon-red rounded-full animate-pulse-ai"></div>
                 <div className="absolute top-1/3 left-2 w-2 h-2 bg-neon-orange rounded-full animate-neural-glow"></div> 
                 <div className="absolute bottom-4 right-8 w-4 h-4 bg-neon-green/50 rounded-full animate-ping"></div>
                 <div className="absolute top-8 left-12 w-3 h-3 bg-neon-purple/50 rounded-full animate-ping delay-1000"></div>
