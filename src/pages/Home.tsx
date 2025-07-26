@@ -102,7 +102,7 @@ const Home = () => {
                 className="hover:text-neon-blue hover:scale-110 hover:rotate-12 transition-all duration-300 hover:shadow-neural"
                 asChild
               >
-                <a href="https://github.com/vikash1311" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/vikash2808" target="_blank" rel="noopener noreferrer">
                   <Github className="w-5 h-5" />
                 </a>
               </Button>
@@ -141,12 +141,13 @@ const Home = () => {
 
           {/* Enhanced AI Profile Picture */}
           <div className="flex justify-center lg:justify-end animate-scale-in">
-            <Card className="p-8 bg-card/30 backdrop-blur-x1 border-2 border-transparent bg-gradient-ai hover:shadow-ai transition-all duration-500 group animate-neural-glow">
+            <Card className="p-8 bg-card/30 backdrop-blur-x1 border-2 border-transparent bg-gradient-ai hover:shadow-ai transition-all duration-500 group">
               <div className="relative">
                 <div className="w-80 h-80 rounded-full bg-gradient-neural p-1 group-hover:animate-pulse-ai">
                   <img 
                     src="/lovable-uploads/05f1625c-9752-4f03-8cca-feb32e52ea42.png" 
                     alt="Vikash Gautam" 
+                    className="w-full h-full rounded-full object-cover border-4 border-transparent "
                     
                   />
                   </div>
