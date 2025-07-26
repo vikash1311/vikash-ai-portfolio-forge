@@ -141,13 +141,12 @@ const Home = () => {
 
           {/* Enhanced AI Profile Picture */}
           <div className="flex justify-center lg:justify-end animate-scale-in">
-            <Card className="p-8 bg-card/30 backdrop-blur-xl border-2 border-transparent bg-gradient-ai hover:shadow-ai transition-all duration-500 group animate-neural-glow">
               <div className="relative">
                 <div className="w-80 h-80 rounded-full bg-gradient-neural p-1 group-hover:animate-pulse-ai">
                   <img 
                     src="/lovable-uploads/05f1625c-9752-4f03-8cca-feb32e52ea42.png" 
                     alt="Vikash Gautam" 
-                    className="w-full h-full rounded-full object-cover border-4 border-transparent bg-gradient-ai"
+                    
                   />
                   </div>
                 <div className="absolute top-4 right-4 w-3 h-3 bg-neon-cyan rounded-full animate-pulse"></div>
