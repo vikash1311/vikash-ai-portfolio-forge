@@ -141,6 +141,7 @@ const Home = () => {
 
           {/* Enhanced AI Profile Picture */}
           <div className="flex justify-center lg:justify-end animate-scale-in">
+            <Card className="p-8 bg-card/30 backdrop-blur-x1 border-2 border-transparent bg-gradient-ai hover:shadow-ai transition-all duration-500 group animate-neural-glow">
               <div className="relative">
                 <div className="w-80 h-80 rounded-full bg-gradient-neural p-1 group-hover:animate-pulse-ai">
                   <img 
