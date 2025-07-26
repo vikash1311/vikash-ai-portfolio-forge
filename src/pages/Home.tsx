@@ -4,35 +4,6 @@ import { Card } from "@/components/ui/card";
 import { ChevronDown, Github, Linkedin, Mail, Download, ArrowRight } from "lucide-react";
 
 const Home = () => {
-  const [displayText, setDisplayText] = useState("");
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const roles = ["AI & Backend Developer", "GenAI Innovator", "Full-Stack Engineer", "Tech Enthusiast"];
-
-  // Typing animation effect
-  useEffect(() => {
-    const currentRole = roles[currentIndex];
-    let charIndex = 0;
-    let isDeleting = false;
-    
-    const typeEffect = setInterval(() => {
-      if (!isDeleting && charIndex < currentRole.length) {
-        setDisplayText(currentRole.substring(0, charIndex + 1));
-        charIndex++;
-      } else if (isDeleting && charIndex > 0) {
-        setDisplayText(currentRole.substring(0, charIndex - 1));
-        charIndex--;
-      } else if (!isDeleting && charIndex === currentRole.length) {
-        setTimeout(() => {
-          isDeleting = true;
-        }, 2000);
-      } else if (isDeleting && charIndex === 0) {
-        setCurrentIndex((prev) => (prev + 1) % roles.length);
-        isDeleting = false;
-      }
-    }, isDeleting ? 50 : 100);
-
-    return () => clearInterval(typeEffect);
-  }, [currentIndex]);
 
   // Floating particles component
   const FloatingParticles = () => {
@@ -87,11 +58,10 @@ const Home = () => {
                 <span className="text-foreground">Gautam</span>
               </h1>
               
-              {/* Typing Animation */}
+              {/* Static Role */}
               <div className="h-8 lg:h-12">
                 <p className="text-xl lg:text-2xl text-neon-blue font-medium">
-                  {displayText}
-                  <span className="animate-pulse">|</span>
+                  AI & Backend Developer
                 </p>
               </div>
               
@@ -142,7 +112,7 @@ const Home = () => {
           <div className="flex justify-center lg:justify-end animate-scale-in">
             <Card className="p-8 bg-card/50 backdrop-blur-sm border-2 border-neon-blue/20 hover:border-neon-blue/60 hover:shadow-glow transition-all duration-500 group">
               <div className="relative">
-                <div className="w-80 h-80 rounded-full bg-gradient-primary p-1 animate-rotate-slow group-hover:animate-pulse">
+                <div className="w-80 h-80 rounded-full bg-gradient-primary p-1 group-hover:animate-pulse">
                   <img 
                     src="/lovable-uploads/05f1625c-9752-4f03-8cca-feb32e52ea42.png" 
                     alt="Vikash Gautam" 
