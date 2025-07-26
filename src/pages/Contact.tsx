@@ -44,8 +44,8 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/vikash1311",
-      link: "https://linkedin.com/in/vikash1311",
+      value: "linkedin.com/in/vikash2808",
+      link: "https://linkedin.com/in/vikash2808",
       color: "neon-purple"
     },
     {
@@ -268,7 +268,7 @@ const Contact = () => {
                 className="w-full border-accent text-accent hover:bg-accent hover:text-accent-foreground"
                 asChild
               >
-                <a href="https://linkedin.com/in/vikash1311" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in/vikash2808" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="w-4 h-4 mr-2" />
                   Message on LinkedIn
                 </a>

@@ -30,10 +30,13 @@ All colors MUST be HSL.
     --accent: 270 100% 70%;
     --accent-foreground: 220 26% 6%;
     
-    --neon-blue: 195 100% 60%;
-    --neon-purple: 270 100% 70%;
-    --neon-green: 120 100% 60%;
-    --neon-pink: 330 100% 70%;
+    --neon-blue: 195 100% 75%;
+    --neon-purple: 270 100% 75%;
+    --neon-green: 120 100% 75%;
+    --neon-pink: 330 100% 75%;
+    --neon-cyan: 180 100% 75%;
+    --neon-yellow: 60 100% 75%;
+    --neon-orange: 30 100% 75%;
     
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
@@ -44,14 +47,18 @@ All colors MUST be HSL.
     
     --radius: 0.75rem;
     
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--neon-blue)), hsl(var(--neon-purple)));
+    /* AI-Themed Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--neon-blue)), hsl(var(--neon-purple)), hsl(var(--neon-pink)));
     --gradient-accent: linear-gradient(135deg, hsl(var(--neon-purple)), hsl(var(--neon-pink)));
     --gradient-bg: linear-gradient(180deg, hsl(var(--background)), hsl(240 5% 4%));
+    --gradient-ai: linear-gradient(45deg, hsl(var(--neon-blue)), hsl(var(--neon-purple)), hsl(var(--neon-cyan)), hsl(var(--neon-pink)));
+    --gradient-neural: conic-gradient(from 0deg, hsl(var(--neon-blue)), hsl(var(--neon-purple)), hsl(var(--neon-green)), hsl(var(--neon-pink)), hsl(var(--neon-blue)));
     
-    /* Shadows */
-    --shadow-neon: 0 0 20px hsl(var(--neon-blue) / 0.3);
-    --shadow-glow: 0 0 40px hsl(var(--neon-purple) / 0.2);
+    /* Enhanced Shadows */
+    --shadow-neon: 0 0 40px hsl(var(--neon-blue) / 0.6);
+    --shadow-glow: 0 0 40px hsl(var(--neon-purple) / 0.4);
+    --shadow-ai: 0 0 60px hsl(var(--neon-blue) / 0.3), 0 0 100px hsl(var(--neon-purple) / 0.2);
+    --shadow-neural: 0 0 30px hsl(var(--neon-cyan) / 0.5);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

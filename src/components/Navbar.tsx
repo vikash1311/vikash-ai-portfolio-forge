@@ -42,9 +42,16 @@ const Navbar = () => {
               variant="outline" 
               size="sm" 
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+              asChild
             >
-              <Download className="w-4 h-4 mr-2" />
-              Resume
+              <a 
+                href="https://drive.google.com/file/d/1Sg932khHGcnauPaUAH-MAiJ2oRu9u1MA/view?usp=drive_link" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Download className="w-4 h-4 mr-2" />
+                Resume
+              </a>
             </Button>
           </div>
 
@@ -85,9 +92,16 @@ const Navbar = () => {
                   variant="outline" 
                   size="sm" 
                   className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  asChild
                 >
-                  <Download className="w-4 h-4 mr-2" />
-                  Resume
+                  <a 
+                    href="https://drive.google.com/file/d/1Sg932khHGcnauPaUAH-MAiJ2oRu9u1MA/view?usp=drive_link" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <Download className="w-4 h-4 mr-2" />
+                    Resume
+                  </a>
                 </Button>
               </div>
             </div>

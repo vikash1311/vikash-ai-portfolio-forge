@@ -96,32 +96,69 @@ const Home = () => {
 
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start animate-fade-in-delay-3">
-              <Button variant="ghost" size="icon" className="hover:text-neon-blue hover:scale-110 hover:rotate-12 transition-all duration-300">
-                <Github className="w-5 h-5" />
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="hover:text-neon-blue hover:scale-110 hover:rotate-12 transition-all duration-300 hover:shadow-neural"
+                asChild
+              >
+                <a href="https://github.com/vikash1311" target="_blank" rel="noopener noreferrer">
+                  <Github className="w-5 h-5" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-neon-purple hover:scale-110 hover:rotate-12 transition-all duration-300">
-                <Linkedin className="w-5 h-5" />
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="hover:text-neon-purple hover:scale-110 hover:rotate-12 transition-all duration-300 hover:shadow-neural"
+                asChild
+              >
+                <a href="https://linkedin.com/in/vikash2808" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-5 h-5" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-neon-green hover:scale-110 hover:rotate-12 transition-all duration-300">
-                <Mail className="w-5 h-5" />
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="hover:text-neon-green hover:scale-110 hover:rotate-12 transition-all duration-300 hover:shadow-neural"
+                asChild
+              >
+                <a href="mailto:gautam7.ven@gmail.com">
+                  <Mail className="w-5 h-5" />
+                </a>
+              </Button>
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="hover:text-neon-cyan hover:scale-110 hover:rotate-12 transition-all duration-300 hover:shadow-neural"
+                asChild
+              >
+                <a href="https://drive.google.com/file/d/1Sg932khHGcnauPaUAH-MAiJ2oRu9u1MA/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                  <Download className="w-5 h-5" />
+                </a>
               </Button>
             </div>
           </div>
 
-          {/* Profile Picture */}
+          {/* Enhanced AI Profile Picture */}
           <div className="flex justify-center lg:justify-end animate-scale-in">
-            <Card className="p-8 bg-card/50 backdrop-blur-sm border-2 border-neon-blue/20 hover:border-neon-blue/60 hover:shadow-glow transition-all duration-500 group">
+            <Card className="p-8 bg-card/30 backdrop-blur-xl border-2 border-transparent bg-gradient-ai hover:shadow-ai transition-all duration-500 group animate-neural-glow">
               <div className="relative">
-                <div className="w-80 h-80 rounded-full bg-gradient-primary p-1 group-hover:animate-pulse">
+                <div className="w-80 h-80 rounded-full bg-gradient-neural p-1 group-hover:animate-pulse-ai">
                   <img 
                     src="/lovable-uploads/05f1625c-9752-4f03-8cca-feb32e52ea42.png" 
                     alt="Vikash Gautam" 
-                    className="w-full h-full rounded-full object-cover transition-all duration-300 group-hover:scale-110"
+                    className="w-full h-full rounded-full object-cover border-4 border-transparent bg-gradient-ai"
                   />
                 </div>
-                <div className="absolute -top-2 -right-2 w-6 h-6 bg-neon-green rounded-full animate-ping"></div>
-                <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-neon-purple rounded-full animate-ping delay-1000"></div>
-                <div className="absolute top-4 -left-4 w-3 h-3 bg-neon-pink rounded-full animate-ping delay-500"></div>
+                {/* Enhanced AI glow effects */}
+                <div className="absolute inset-0 rounded-full bg-gradient-neural opacity-30 blur-xl animate-pulse-ai"></div>
+                <div className="absolute -inset-4 rounded-full bg-gradient-ai opacity-10 blur-2xl animate-neural-glow"></div>
+                {/* Neural network dots */}
+                <div className="absolute top-4 right-4 w-3 h-3 bg-neon-cyan rounded-full animate-pulse"></div>
+                <div className="absolute bottom-8 left-6 w-2 h-2 bg-neon-yellow rounded-full animate-pulse-ai"></div>
+                <div className="absolute top-1/3 left-2 w-2 h-2 bg-neon-orange rounded-full animate-neural-glow"></div>
+                <div className="absolute bottom-4 right-8 w-4 h-4 bg-neon-green/50 rounded-full animate-ping"></div>
+                <div className="absolute top-8 left-12 w-3 h-3 bg-neon-purple/50 rounded-full animate-ping delay-1000"></div>
               </div>
             </Card>
           </div>
