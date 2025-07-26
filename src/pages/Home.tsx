@@ -102,7 +102,7 @@ const Home = () => {
                 className="hover:text-neon-blue hover:scale-110 hover:rotate-12 transition-all duration-300 hover:shadow-neural"
                 asChild
               >
-                <a href="https://github.com/vikash2808" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/vikash1311" target="_blank" rel="noopener noreferrer">
                   <Github className="w-5 h-5" />
                 </a>
               </Button>
@@ -141,19 +141,22 @@ const Home = () => {
 
           {/* Enhanced AI Profile Picture */}
           <div className="flex justify-center lg:justify-end animate-scale-in">
-            <Card className="p-8 bg-card/30 backdrop-blur-x1 border-2 border-transparent bg-gradient-ai hover:shadow-ai transition-all duration-500 group">
+            <Card className="p-8 bg-card/30 backdrop-blur-xl border-2 border-transparent bg-gradient-ai hover:shadow-ai transition-all duration-500 group animate-neural-glow">
               <div className="relative">
                 <div className="w-80 h-80 rounded-full bg-gradient-neural p-1 group-hover:animate-pulse-ai">
                   <img 
                     src="/lovable-uploads/05f1625c-9752-4f03-8cca-feb32e52ea42.png" 
                     alt="Vikash Gautam" 
-                    className="w-full h-full rounded-full object-cover border-4 border-transparent "
-                    
+                    className="w-full h-full rounded-full object-cover border-4 border-transparent bg-gradient-ai"
                   />
-                  </div>
-                <div className="absolute top-4 right-4 w-3 h-3 bg-neon-yellow rounded-full animate-pulse"></div>
-                <div className="absolute bottom-8 left-6 w-2 h-2 bg-neon-red rounded-full animate-pulse-ai"></div>
-                <div className="absolute top-1/3 left-2 w-2 h-2 bg-neon-orange rounded-full animate-neural-glow"></div> 
+                </div>
+                {/* Enhanced AI glow effects */}
+              
+    
+                {/* Neural network dots */}
+                <div className="absolute top-4 right-4 w-3 h-3 bg-neon-cyan rounded-full animate-pulse"></div>
+                <div className="absolute bottom-8 left-6 w-2 h-2 bg-neon-yellow rounded-full animate-pulse-ai"></div>
+                <div className="absolute top-1/3 left-2 w-2 h-2 bg-neon-orange rounded-full animate-neural-glow"></div>
                 <div className="absolute bottom-4 right-8 w-4 h-4 bg-neon-green/50 rounded-full animate-ping"></div>
                 <div className="absolute top-8 left-12 w-3 h-3 bg-neon-purple/50 rounded-full animate-ping delay-1000"></div>
               </div>
