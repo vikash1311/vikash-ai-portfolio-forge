@@ -149,6 +149,8 @@ const Home = () => {
                     alt="Vikash Gautam" 
                     className="w-full h-full rounded-full object-cover border-4 border-transparent bg-gradient-ai"
                   />
+                  </div>
+                </div>
 
             </Card>
           </div>
